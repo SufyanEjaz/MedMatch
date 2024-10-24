@@ -1,0 +1,21 @@
+# Node.js modules and build artifacts
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env
+
+# Git repository
+.git
+.gitignore
+
+# Docker-specific files
+Dockerfile
+.dockerignore
+
+# Logs and temporary files
+logs
+*.log
+tmp
+temp

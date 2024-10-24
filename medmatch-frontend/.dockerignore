@@ -1,0 +1,29 @@
+# Ignore node_modules (dependencies will be installed in the container)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignore environment files (you should pass env variables through Docker Compose)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore build outputs
+.next
+out
+dist
+build
+
+# Git and Docker-related files
+.git
+.gitignore
+.dockerignore
+Dockerfile
+
+# Logs and temp files
+logs
+*.log
+*.swp
+.DS_Store
